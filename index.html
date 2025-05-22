@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navbar Indah</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="logo.png" alt="Logo"> <!-- Ganti dengan logo kamu -->
+    </a>
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Doctors">Doctors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Departement">Departement</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Form">Form</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <header class="hero-header">
+    <div class="container text-center">
+      <div class="hero-content">
+        <h1 class="hero-title">Welcome to Harmony Hospital</h1>
+        <p class="hero-subtitle">Your health is our top priority</p>
+        <a href="#services" class="btn btn-light mt-3">Explore Services</a>
+      </div>
+    </div>
+  </header>
+  <div class="container justify-content-center  mt-5" style="display: flex; flex-wrap: wrap; gap: 12px;">
+    <div class="card" style="width: 20rem; align-items: center;
+    text-align: center;">
+        <img src="images/Icon/8960629_first aid kit_medical box_medical_medicine_hospital_icon.png" class="card-img" style="width: 100px;"  alt="icon">
+        <div class="card-body">
+          <h5 class="card-title"><strong>ADVANCED TECHNOLOGY</strong></h5>
+          <p class="card-text">We harness the power of cutting-edge technology to redefine healthcare. Our commitment to innovation ensures that we deliver precise diagnoses, advanced treatments, and state-of-the-art medical solutions.</p>
+        
+        </div>
+      </div>
+      <div class="card" style="width: 20rem; align-items: center;
+      text-align: center;">
+        <img src="images/Icon/6040299_asian_coronavirus_doctor_male_icon.png" class="card-img mx-auto" style="width: 100px;" alt="icon">
+        <div class="card-body">
+          <h5 class="card-title"><strong>HEALTHCARE SOLUTIONS</strong></h5>
+          <p class="card-text">Our healthcare solutions prioritize your well-being. With a dedicated team of experts and personalized care plans, we ensure the best possible outcomes for every patient, fostering a healthier community.</p>            
+        </div>
+      </div>
+      <div class="card" style="width: 20rem; align-items: center;
+      text-align: center;">
+        <img src="images/Icon/5840144_ambulance_doctor_emergency_health_hospital_icon.png" class="card-img" style="width: 100px;" alt="icon">
+        <div class="card-body">
+          <h5 class="card-title"><strong>24/7 AVAILABILITY</strong></h5>
+          <p class="card-text">We're here for you round-the-clock. Our commitment to accessibility ensures that you receive prompt medical attention whenever you need it, providing peace of mind and reliable care, day or night.</p>
+        
+        </div>
+      </div>
+</div>
+  <section class="about-section" id="About">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Image -->
+        <div class="col-lg-6 mb-4 mb-lg-0 animate_animated animate_fadeInLeft">
+          <img src="features.jpg" class="img-fluid about-img" alt="Hospital Image">
+        </div>
+  
+        <!-- Right Text -->
+        <div class="col-lg-6 animate_animated animate_fadeInRight">
+          <h2 class="about-title mb-4">About Harmony Hospital</h2>
+          <p class="about-text">
+            Harmony Hospital is a world-class healthcare provider dedicated to delivering compassionate and innovative medical care. 
+            Our expert team of doctors, nurses, and staff are committed to your well-being and comfort.
+          </p>
+          <p class="about-text">
+            With state-of-the-art facilities and a focus on personalized treatment, we ensure that every patient receives the best possible care.
+          </p>
+          <a href="#services" class="btn btn-learn-more mt-3">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallery-section" id="Doctors">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold text-success">Meet Our Doctors</h2>
+      <div class="row g-4">
+        
+        <!-- Dokter 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card-doctor">
+            <img src="doctors-1.jpg" alt="Dr. A">
+            <div class="info-box text-start">
+              <div class="info-title">dr. Andi Wijaya</div>
+              <div class="stars">★★★★★</div>
+              <div class="info-text">Monday - Wednesday, 08.00 - 14.00</div>
+              <div class="doctor-specialty">Cardiologist</div>
+            </div>
+            </div>
+            </div>
+  
+        <!-- Dokter 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card-doctor">
+            <img src="doctors-2.jpg" alt="Dr. B">
+            <div class="info-box text-start">
+              <div class="info-title">dr. Melisa Tania</div>
+              <div class="stars">★★★★★</div>
+              <div class="info-text">Tuesday - Thursday, 08.00 - 14.00</div>
+              <div class="doctor-specialty">Pediatrician</div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Dokter 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card-doctor">
+            <img src="doctors-3.jpg" alt="Dr. C">
+            <div class="info-box text-start">
+              <div class="info-title">dr. Rendra Saputra</div>
+              <div class="stars">★★★★★</div>
+              <div class="info-text">Wednesday - Friday, 08.00 - 14.00</div>
+              <div class="doctor-specialty">Neurologist</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dokter 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card-doctor">
+            <img src="doctors-4.jpg" alt="Dr. D">
+            <div class="info-box text-start">
+              <div class="info-title">dr. Clara Ayu</div>
+              <div class="stars">★★★★★</div>
+              <div class="info-text">Saturday - Sunday, 08.00 - 14.00</div>
+              <div class="doctor-specialty">Dermatologist</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+  <br>
+  <div class="container" id="Departement">
+    <h2 class="section-title">Hospital Departement</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <div class="col">
+        <div class="card card-department h-100">
+          <img src="departments-1.jpg" class="card-img-top" alt="Kardiologi">
+          <div class="card-body">
+            <h5 class="card-title">Kardiologi</h5>
+            <p class="card-text">Treating heart and blood vessel problems with the latest technology and a team of experienced experts.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-department h-100">
+          <img src="departments-2.jpg" class="card-img-top" alt="Radiologi">
+          <div class="card-body">
+            <h5 class="card-title">Radiologi</h5>
+            <p class="card-text">Provides medical imaging services such as x-ray, CT Scan, and MRI for accurate diagnosis.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-department h-100">
+          <img src="departments-3.jpg" class="card-img-top" alt="Pediatri">
+          <div class="card-body">
+            <h5 class="card-title">Pediatrics</h5>
+            <p class="card-text">A pediatrics department that focuses on the health and growth of infants to adolescents.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-department h-100">
+          <img src="departments-4.jpg" class="card-img-top" alt="Neurologi">
+          <div class="card-body">
+            <h5 class="card-title">Suregery</h5>
+            <p class="card-text">Treat a wide range of disorders of the nervous system, brain, and spine thoroughly.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-department h-100">
+          <img src="departments-5.jpg" class="card-img-top" alt="Bedah Umum">
+          <div class="card-body">
+            <h5 class="card-title">Oftalmologi</h5>
+            <p class="card-text">A department for a wide range of surgical procedures with sterile facilities and a team of professionals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  
+  <div class="container" id="Form">
+    <h2 class="text-center mb-5">Patient Registration</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="form-section">
+          <form id="formPasien">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Full Name</label>
+              <input type="text" id="nama" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="gejala" class="form-label">Symptom</label>
+              <textarea id="gejala" class="form-control" rows="3" required></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="hari" class="form-label">Consultation Day</label>
+              <select id="hari" class="form-select" required>
+                <option value="">-- Choose a Day --</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Daftar</button>
+          </form>
+  
+          <div id="dokterResult" class="result-section mt-4">
+            <h5>Availble Doctor:</h5>
+            <ul id="listDokter"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container gallery" id="Gallery">
+    <h2 class="title">Our Gallery</h2>
+    <div class="row g-4">
+      <!-- Gambar 1-8 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="gallery-img">
+          <img src="gallery-1.jpg" alt="Gambar 1">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="gallery-img">
+          <img src="gallery-2.jpg" alt="Gambar 2">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="gallery-img">
+          <img src="gallery-3.jpg" alt="Gambar 3">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="gallery-img">
+          <img src="gallery-4.jpg" alt="Gambar 4">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="gallery-img">
+          <img src="gallery-5.jpg" alt="Gambar 5">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="gallery-img">
+          <img src="gallery-6.jpg" alt="Gambar 6">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="gallery-img">
+          <img src="gallery-7.jpg" alt="Gambar 7">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="gallery-img">
+          <img src="gallery-8.jpg" alt="Gambar 8">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="Patients">
+    <h2 class="testimonial-title">What Our Patients Say</h2>
+  
+    <!-- Top Row -->
+    <div class="row justify-content-between custom-spacing">
+      <div class="col-md-5" data-aos="fade-right">
+        <div class="testimonial-card">
+          <img src="testimonials-1.jpg" class="testimonial-img" alt="Emma">
+          <div class="testimonial-name">Emma Williams</div>
+          <div class="testimonial-role">Pediatrician</div>
+          <p class="testimonial-text">“Exceptional service and a truly caring environment. I feel safe every time I walk in.”</p>
+        </div>
+      </div>
+      <div class="col-md-5" data-aos="fade-left">
+        <div class="testimonial-card">
+          <img src="testimonials-2.jpg" class="testimonial-img" alt="John">
+          <div class="testimonial-name">John Carter</div>
+          <div class="testimonial-role">Business Analyst</div>
+          <p class="testimonial-text">“I’ve never met a more welcoming and professional team. Outstanding!”</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Middle -->
+    <div class="row justify-content-center custom-spacing">
+      <div class="col-md-6" data-aos="zoom-in">
+        <div class="testimonial-card">
+          <img src="testimonials-3.jpg" class="testimonial-img" alt="Lara">
+          <div class="testimonial-name">Lara Benson</div>
+          <div class="testimonial-role">Graphic Designer</div>
+          <p class="testimonial-text">“From consultation to treatment, everything was smooth and comforting. This is a place you can trust.”</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Bottom Row -->
+    <div class="row justify-content-between">
+      <div class="col-md-5" data-aos="fade-right">
+        <div class="testimonial-card">
+          <img src="testimonials-4.jpg" class="testimonial-img" alt="Alex">
+          <div class="testimonial-name">Alex Morgan</div>
+          <div class="testimonial-role">Software Developer</div>
+          <p class="testimonial-text">“Clean, calm, and professional. I always feel well taken care of.”</p>
+        </div>
+      </div>
+      <div class="col-md-5" data-aos="fade-left">
+        <div class="testimonial-card">
+          <img src="testimonials-5.jpg" class="testimonial-img" alt="Grace">
+          <div class="testimonial-name">Grace Lee</div>
+          <div class="testimonial-role">Yoga Instructor</div>
+          <p class="testimonial-text">“The team is warm, attentive, and truly amazing. Thank you for everything!”</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="Contact">
+  <div class="contact-container">
+    <div class="row g-5">
+      
+      <!-- Info Kontak -->
+      <div class="col-md-6 contact-info">
+        <h4>Contact Us</h4>
+        <p><i class="bi bi-geo-alt-fill icon"></i>Jl. Health No. 123, Jakarta</p>
+        <p><i class="bi bi-telephone-fill icon"></i>(021) 123-4567</p>
+        <p><i class="bi bi-envelope-fill icon"></i>HarmonyHospitalcom</p>
+        <p><i class="bi bi-clock-fill icon"></i>Monday - Friday, 08.00 - 17.00</p>
+        <hr>
+        <h6>Ikuti Kami</h6>
+        <p>
+          <a href="https://www.youtube.com/@intcvnee" class="text-decoration-none me-3"><i class="bi bi-youtube icon"></i></a>
+          <a href="https://www.instagram.com/anythinggforrruuu/profilecard/?igsh=cnZkbXQ2eXMyMXBu" class="text-decoration-none me-3"><i class="bi bi-instagram icon"></i></a>
+          <a href="https://x.com/tawroogirll?t=PwYzsX49MhGYv59oqNTT6A&s=09" class="text-decoration-none"><i class="bi bi-twitter icon"></i></a>
+        </p>
+      </div>
+
+      <!-- Google Maps -->
+      <div class="col-md-6">
+        <div class="map-responsive">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.38477308704!2d106.68943033006299!3d-6.229379600000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f157d61c6f1d%3A0x30e133aa36c8f4d2!2sJakarta!5e0!3m2!1sid!2sid!4v1681909230910!5m2!1sid!2sid" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer Start -->
+<footer class="pt-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- About -->
+      <div class="col-md-4 mb-4">
+        <h5 class="footer-title">Harmony Hospital</h5>
+        <p>We provide the best health services with professional doctors and complete facilities for your comfort.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-4">
+        <h5 class="footer-title">Navigasi Cepat</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Layanan</a></li>
+          <li><a href="#">Dokter</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4 mb-4">
+        <h5 class="footer-title">Contact Us</h5>
+        <p><i class="bi bi-geo-alt-fill me-2"></i>Jl. Health No. 123, Jakarta</p>
+        <p><i class="bi bi-telephone-fill me-2"></i>(021) 123-4567</p>
+        <p><i class="bi bi-envelope-fill me-2"></i>HarmonyHospital.com</p>
+
+        <div class="social-icons mt-3">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom mt-4">
+    <div class="container">
+      © 2025 Harmony Hospital. All rights reserved.
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
